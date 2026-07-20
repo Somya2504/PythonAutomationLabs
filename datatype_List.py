@@ -40,3 +40,28 @@ more = ls + [11, 'dev']
 print(more)     # output = [1, 2, 'somya', 3.5, 4, 5, 'abc', 7.45, 11, 'dev']
 
 # hence Proved that Lists are mutable, meaning their content can be changed after creation.
+
+# Sangeeta's Practice
+
+list1= [34,78,89,0,53,87,10,90,36,99,69]
+print(list1)
+print(list1[4:8])
+
+list1.insert(3, 'sangeete')
+print(list1)
+
+list1.append("blr")
+print(list1)
+
+list1[1]= 3.141
+print(list1)
+
+del list1[2]
+print(list1)
+
+list2= ['sang','som','papu','subi']
+list1.extend(list2)
+print(list1)
+
+list3 = list1 + list2
+print(list3)
