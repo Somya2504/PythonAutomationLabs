@@ -1,6 +1,5 @@
 # Add calculator utility
 
-import math
 
 def add(a,b):
     return a+b
