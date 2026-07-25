@@ -1,22 +1,18 @@
-# Python Basic Code
+# PythonAutomationLabs
 
-This repository contains Python programs for learning and practicing Python.
+A structured Python learning repository designed for QA Automation Engineers.
 
-## Topics
+Topics covered:
 
-- Variables
+- Python Fundamentals
 - Data Types
-- Operators
-- Strings
-- Lists
-- Tuples
-- Sets
-- Dictionary
+- Control Flow
 - Functions
-- OOP
-- File Handling
+- Object-Oriented Programming
 - Exception Handling
+- File Handling
+- Modules & Packages
+- Mini Projects
+- Interview Preparation
 
-## Author
-
-Somyakanta Pradhan
+This repository is part of my end-to-end Automation Engineering learning journey, which also includes Git, SQL, API Testing, Robot Framework, Playwright, GitHub Actions, Docker, Kubernetes, AI, LangChain, and LangGraph.
