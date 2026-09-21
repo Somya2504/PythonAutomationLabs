@@ -1,0 +1,22 @@
+{
+    "employees": [
+        {
+            "employee_id": 501,
+            "name": "Alok",
+            "salary": 75000,
+            "department": "QA"
+        },
+        {
+            "employee_id": 502,
+            "name": "Prem",
+            "salary": 85000,
+            "department": "Development"
+        },
+        {
+            "employee_id": 503,
+            "name": "Tarun",
+            "salary": 72500,
+            "department": "Automation"
+        }
+    ]
+}
