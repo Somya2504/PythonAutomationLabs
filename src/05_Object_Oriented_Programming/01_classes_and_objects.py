@@ -1,5 +1,5 @@
 class Employee:
-    """Blueprint for creating Employee objects."""
+    """Blueprint for creating objects."""
     pass        # Python doesn't allow an empty class body, so we write: pass; It simply means:"Do nothing for now."
 
 
