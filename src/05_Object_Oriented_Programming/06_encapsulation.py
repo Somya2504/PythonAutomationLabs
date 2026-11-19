@@ -15,17 +15,17 @@ class BankAccount:
         print("*" * 50)
 
     def deposit(self):
-        self.amount = float(input("Please enter the amount to be deposited: "))
-        if self.amount > 0:
-            self.__balance += self.amount
+        self.deposit_amount = float(input("Please enter the amount to be deposited: "))
+        if self.deposit_amount > 0:
+            self.__balance += self.deposit_amount
             self.display_account_details()
         else:
             print("Please enter a valid amount.")
 
     def withdraw(self):
-        self.amount = float(input("Please enter the amount to be withdrawn: "))
-        if self.amount > 0 and self.amount <= self.__balance:
-            self.__balance -= self.amount
+        self.withdraw_amount = float(input("Please enter the amount to be withdrawn: "))
+        if 0 < self.withdraw_amount <= self.__balance:
+            self.__balance -= self.withdraw_amount
             self.display_account_details()
         else:
             print("Insufficient Balance.")

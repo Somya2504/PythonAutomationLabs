@@ -1,6 +1,7 @@
 # A package helps us organize related Python modules into directories.
 
-## Absolute imports -->Python follows the path from the package to the module, then accesses the requested function.
+## Absolute imports -->Python follows the path from the package to the module,
+# then accesses the requested function.
 from employee.employee_utils import calculate_salary
 from employee.employee_utils import validate_employee_id
 
@@ -12,7 +13,9 @@ print(validate_employee_id(-1))
 
 # Relative Imports
 '''
-Python executes employee/__init__.py when importing the regular package. Because that file imports and exposes the selected functions, main.py can access them directly through employee.
+Python executes employee/__init__.py when importing the regular package.
+Because that file imports and exposes the selected functions, 
+main.py can access them directly through employee.
 Industry benefit: __init__.py can define a clean public interface for your package, hiding some of the internal file structure from its users.
 '''
 from employee import calculate_salary, get_employee_details

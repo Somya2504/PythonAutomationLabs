@@ -57,7 +57,7 @@ print("\n========== INTERNAL DICTIONARIES ==========")
 print("Employee Class Dictionary:")
 print(Employee.__dict__)
 
-print("\nEmployee 1 Dictionary:")
+print("\nemployee_1 Dictionary:")
 print(employee_1.__dict__)
 
 print("\nEmployee 2 Dictionary:")

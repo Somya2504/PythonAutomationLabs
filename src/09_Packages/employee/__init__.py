@@ -9,4 +9,7 @@ from .salary_utils import (
     calculate_total_salary,
 )
 
-from .employee_validation import (validate_salary, validate_employee_name)
+from .employee_validation import (
+    validate_salary,
+    validate_employee_name
+)

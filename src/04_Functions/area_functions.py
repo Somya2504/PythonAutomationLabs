@@ -2,7 +2,6 @@
 
 import math
 
-
 class AreaCalculator:
 
     def circle_area(self, radius):
@@ -35,16 +34,16 @@ def main():
     choice = int(input("Enter your choice (1-4): "))  # Type Casting
 
     if choice == 1:
-        r = flot(input("Enter Radius: "))
+        r = float(input("Enter Radius: "))
         print(f"Area of Circle: {calc.circle_area(r):.2f}")
 
     elif choice == 2:
-        len = flot(input("Enter length: "))
-        wid = flot(input("Enter Width: "))
+        len = float(input("Enter length: "))
+        wid = float(input("Enter Width: "))
         print(f"Area of Rectangle: {calc.rectangle_area(len, wid):.2f}")
 
     elif choice == 3:
-        s = flot(input("Enter Side: "))
+        s = float(input("Enter Side: "))
         print(f"Area of Square: {calc.square_are(s):.2f}")
 
     elif choice == 4:
